@@ -1,0 +1,42 @@
+.Can{
+	display:flex;
+	width:100%;
+	justify-content: space-around;
+	margin: 10px;
+}
+.Box{
+	  width:100%; 
+}
+.Box_1{
+	width:30%;
+}
+.Box_2{
+	width:50%;
+	flex-shrink:1;
+}
+.Box > h3{
+	margin:0;
+	padding:10px;
+	text-align:center;
+	background-color:#e0b62ccf;
+	color: #48471ed6
+}
+
+.TextArea{
+	height:400px;
+	box-sizing:border-box;
+	width:100%;
+	padding:10px;
+	color:#20C20E;
+	background-color:#000000;
+}
+
+@media screen and (max-width:700px){
+.Box_1, .Box_2{
+ width: 100%;
+}
+.Can{
+	flex-direction: column;
+}
+
+}
